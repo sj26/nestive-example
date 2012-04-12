@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/justinfrench/nestive.git
-  revision: 23105728c394f08e61dbe910936431d1caf9f2c1
-  ref: 23105728c394f08e61dbe910936431d1caf9f2c1
+  revision: e735afc3fdf1d04256ba3efa2fd860bcf901afd8
+  ref: e735afc3fdf1d04256ba3efa2fd860bcf901afd8
   specs:
     nestive (0.1.0)
       rails (~> 3.0)

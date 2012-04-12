@@ -13,4 +13,4 @@ end
 gem 'jquery-rails'
 gem 'haml-rails'
 
-gem 'nestive', github: 'justinfrench/nestive', ref: '23105728c394f08e61dbe910936431d1caf9f2c1'
+gem 'nestive', github: 'justinfrench/nestive', ref: 'e735afc3fdf1d04256ba3efa2fd860bcf901afd8'
