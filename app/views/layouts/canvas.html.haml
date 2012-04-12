@@ -1,0 +1,16 @@
+= extends :application do
+  = append :javascripts do
+    = javascript_include_tag "application"
+  = append :stylesheets do
+    = stylesheet_link_tag "application"
+  = replace :application do
+    %header
+      %h1 My App
+    %nav
+      = area :nav do
+        = link_to "Posts", posts_path
+    %section.canvas
+      = area :canvas do
+        = yield
+    %footer
+      &copy; 2012 Nobody

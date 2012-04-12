@@ -1,0 +1,7 @@
+= extends :canvas do
+  = append :nav do
+    This is where some user nav might go. It is very contrived.
+  = replace :canvas do
+    %div.user
+      = area :user do
+        = yield

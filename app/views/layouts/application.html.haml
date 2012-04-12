@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    = area :head do
+      %title Nestive Broken
+      = area :meta do
+        = csrf_meta_tags
+      = area :javascripts
+      = area :stylesheets
+  %body
+    = area :application do
+      = yield
